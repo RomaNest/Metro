@@ -114,6 +114,6 @@ if __name__ == '__main__':
         areas.append((area, (name_1, name_2)))
 
     areas = set(areas)
-    pprint(sorted(areas, reverse=True)[:3])
+    pprint(sorted(areas*111*62.87, reverse=True)[:3])
 
 
